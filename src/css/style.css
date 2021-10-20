@@ -1,7 +1,6 @@
 @charset "UTF-8";
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: sans-serif;
 }
 
@@ -47,12 +46,8 @@ a {
   line-height: 29px;
   letter-spacing: 0.015em;
   color: #000000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .form-control {
@@ -69,18 +64,12 @@ a {
 }
 
 .news_block:hover {
-  -webkit-box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
-          box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
+  box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
 }
 
 .news_description {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 20px;
 }
 
@@ -141,8 +130,7 @@ a {
 }
 
 .popular_services_block:hover {
-  -webkit-box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
-          box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
+  box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
 }
 
 .popular_services_block_title {
@@ -182,8 +170,7 @@ a {
 }
 
 .best_specialists_block:hover {
-  -webkit-box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
-          box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
+  box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
 }
 
 .best_specialists_description {
@@ -235,6 +222,19 @@ a {
   padding-top: 50px;
   padding-bottom: 50px;
   background: #F5F8F9;
+  /*&_button
+        border: 1px solid #0FA8AE
+        font-family: PT Sans, sans-serif
+        font-style: normal
+        font-weight: bold
+        font-size: 16px
+        line-height: 21px
+        letter-spacing: 0.015em
+        color: #0FA8AE
+        max-width: 35%
+        padding: 10px 15px
+        margin-top: 20px
+        background-color: #fff */
 }
 
 .reviews_block {
@@ -280,21 +280,6 @@ a {
   line-height: 16px;
   letter-spacing: 0.005em;
   color: #000000;
-}
-
-.reviews_button {
-  border: 1px solid #0FA8AE;
-  font-family: PT Sans, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 21px;
-  letter-spacing: 0.015em;
-  color: #0FA8AE;
-  max-width: 35%;
-  padding: 10px 15px;
-  margin-top: 20px;
-  background-color: #fff;
 }
 
 .contacts {
@@ -349,8 +334,6 @@ a {
 
 /* Лента слайдов */
 .slick-track {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -406,12 +389,8 @@ a {
 
 .slider_content_button_wrap {
   max-width: 281px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .slider_content h3 {
@@ -442,19 +421,10 @@ a {
   background-color: #fff;
   height: 100%;
   width: 100;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .partners_name {
@@ -478,8 +448,6 @@ a {
 
 /* Лента слайдов */
 .slick-track {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -630,4 +598,3 @@ a {
   line-height: 14px;
   color: #666666;
 }
-/*# sourceMappingURL=style.css.map */
