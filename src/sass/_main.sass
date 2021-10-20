@@ -6,13 +6,28 @@ a
 $head_color: #F7F9FA
 
 .btn-primary
-    border: none !important
+    //border: none !important
     background-color: #0FA8AE !important
     font-family: PT Sans, sans-serif
     font-style: normal
     font-weight: bold
     font-size: 16px
     color: #FFFFFF
+    border-color: #0FA8AE
+    &:hover
+        border-color: #0FA8AE
+
+.btn-outline-primary
+    font-family: PT Sans, sans-serif
+    font-style: normal
+    font-weight: bold
+    font-size: 16px
+    color: #0FA8AE 
+    border-color: #0FA8AE !important
+    &:hover
+        border-color: #0FA8AE
+        background-color: #0FA8AE
+        color: #fff
 .site_icon
     span
         margin-left: 10px
@@ -78,8 +93,8 @@ $head_color: #F7F9FA
     padding-top: 50px
     padding-bottom: 50px
     &_wrap
-        display: flex
-        justify-content: space-between
+        //display: flex
+        //justify-content: space-between
     &_block
         border: 1px solid #D7D7D7
         margin-bottom: 30px
@@ -87,8 +102,8 @@ $head_color: #F7F9FA
         &:hover
             box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1)
     &_wrap_description
-        padding: 20px
-        padding-right: 60px
+        //padding: 20px
+        //padding-right: 60px
     &_block_title
         font-family: PT Sans, sans-serif
         font-style: normal
@@ -98,9 +113,8 @@ $head_color: #F7F9FA
         letter-spacing: 0.015em
         color: #000000
         margin-top: 10px
-        padding-right: 20px
     &_description_content
-        margin: 30px 0px 40px 0px
+        padding: 30px 60px 40px 0px
         span
             margin: 10px 20px 10px 0px
             font-family: Roboto, sans-serif

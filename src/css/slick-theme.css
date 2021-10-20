@@ -27,8 +27,8 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    /*width: 20px;
+    height: 20px;*/
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -88,12 +88,12 @@
 }
 .slick-prev:before
 {
-    content: url('/src/img/left-arrow.png');
+    content: url('../img/left-arrow.png');
 
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: url('/src/img/left-arrow.png');
+    content: url('../img/left-arrow.png');
 }
 
 .slick-next
@@ -107,12 +107,12 @@
 }
 .slick-next:before
 {
-    content: url('/src/img/right-arrow.png');
+    content: url('../img/right-arrow.png');
 
 }
 [dir='rtl'] .slick-next:before
 {
-    content: url('/src/img/right-arrow.png');
+    content: url('../img/right-arrow.png');
 }
 
 /* Dots */
