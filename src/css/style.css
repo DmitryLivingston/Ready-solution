@@ -1,0 +1,595 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-primary {
+  border: none !important;
+  background-color: #0FA8AE !important;
+  font-family: PT Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.site_icon span {
+  margin-left: 10px;
+  font-family: PT Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.015em;
+  color: #000000;
+  display: flex;
+  align-items: center;
+}
+
+.form-control {
+  max-width: 100%;
+}
+
+.news {
+  padding-top: 50px;
+}
+
+.news_block {
+  border: 1px solid #D7D7D7;
+  border-radius: 5px;
+}
+
+.news_block:hover {
+  box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
+}
+
+.news_description {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.news_date {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #666666;
+}
+
+.news_title {
+  font-family: PT Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.015em;
+  color: #000000;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+
+.section_title {
+  margin-bottom: 30px;
+}
+
+.section_title a {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.005em;
+  color: #0FA8AE;
+}
+
+.section_title span {
+  font-family: PT Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+
+.popular_services {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.popular_services_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular_services_block {
+  border: 1px solid #D7D7D7;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.popular_services_block:hover {
+  box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
+}
+
+.popular_services_wrap_description {
+  padding: 20px;
+  padding-right: 60px;
+}
+
+.popular_services_block_title {
+  font-family: PT Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.015em;
+  color: #000000;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+
+.popular_services_description_content {
+  margin: 30px 0px 40px 0px;
+}
+
+.popular_services_description_content span {
+  margin: 10px 20px 10px 0px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #0FA8AE;
+}
+
+.best_specialists {
+  background: #F5F8F9;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.best_specialists_block {
+  border: 1px solid #D7D7D7;
+  border-radius: 5px;
+}
+
+.best_specialists_block:hover {
+  box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
+}
+
+.best_specialists_description {
+  margin-bottom: 10px;
+}
+
+.best_specialists_name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: PT Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+
+.best_specialists_position {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #666666;
+}
+
+.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about_description {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.005em;
+  color: #000000;
+}
+
+.about_img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.reviews {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #F5F8F9;
+}
+
+.reviews_block {
+  position: relative;
+  background: #FFFFFF;
+  border: 1px solid #D7D7D7;
+  padding: 30px 30px 40px 80px;
+}
+
+.reviews_icon {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.reviews_data {
+  margin-bottom: 10px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #666666;
+}
+
+.reviews_name {
+  margin-bottom: 10px;
+  font-family: PT Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+
+.reviews_description {
+  margin-bottom: 10px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.005em;
+  color: #000000;
+}
+
+.reviews_button {
+  border: 1px solid #0FA8AE;
+  font-family: PT Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.015em;
+  color: #0FA8AE;
+  max-width: 35%;
+  padding: 10px 15px;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.contacts {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contacts_description span b {
+  margin-right: 10px;
+}
+
+.contacts_social {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.contacts_button {
+  background: #0FA8AE;
+  font-family: PT Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.015em;
+  color: #FFFFFF;
+  padding: 10px;
+  max-width: 220px;
+  min-width: 146px;
+}
+
+.contacts_map {
+  width: 100%;
+}
+
+.contacts span {
+  margin-bottom: 10px;
+}
+
+.partners {
+  background: #F5F8F9;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider_item img {
+  width: 100%;
+}
+
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+}
+
+/* Стрелка */
+.slider .slick-arrow {
+  z-index: 10;
+}
+
+/* Стрелка влево */
+.slider .slick-arrow.slick-prev {
+  left: 20%;
+}
+
+/* Стрелка вправо */
+.slider .slick-arrow.slick-next {
+  right: 20%;
+}
+
+.slider_content {
+  position: absolute;
+  top: 30%;
+  right: 50%;
+  z-index: 10;
+  max-width: 466px;
+  text-align: left;
+}
+
+.slider_content_button_wrap {
+  max-width: 281px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider_content_button_1 {
+  font-family: PT Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.015em;
+  color: #FFFFFF;
+  background: #0FA8AE;
+  border-radius: 5px;
+  padding: 10px 9px;
+}
+
+.slider_content_button_2 {
+  font-family: PT Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.015em;
+  color: #0FA8AE;
+  border-radius: 5px;
+  padding: 10px 9px;
+  border: 1.5px solid #0FA8AE;
+  background: transparent;
+}
+
+.slider_content h3 {
+  font-family: PT Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.015em;
+}
+
+.slider_content p {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.005em;
+  color: #000000;
+}
+
+.partners_slider_block_content {
+  padding: 10px;
+}
+
+.slider_block_content_into {
+  border: 1px solid #D7D7D7;
+  background-color: #fff;
+  height: 100%;
+  width: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.partners_name {
+  text-align: center;
+  font-family: PT Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.015em;
+}
+
+/* Слайдер */
+/* Слайдер запущен */
+/* Слайдер с точками */
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+}
+
+/* Слайд */
+/* Слайд активный (показывается) */
+/* Слайд основной */
+/* Слайд по центру */
+/* Клонированный слайд */
+/* Стрелка */
+.partners_slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+}
+
+.partners_slider .slick-arrow ::before {
+  border-radius: 50%;
+}
+
+/* Стрелка влево */
+.partners_slider .slick-arrow.slick-prev {
+  left: 0;
+}
+
+/* Стрелка вправо */
+.partners_slider .slick-arrow.slick-next {
+  right: 0;
+}
+
+/* Стрелка не активная */
+/* Точки (булиты) */
+/* Активная точка */
+/* Элемент точки */
+.header_top {
+  background-color: #F7F9FA;
+  padding: 5px;
+}
+
+.header_number {
+  font-family: Roboto, sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 0.9vw;
+  line-height: 16px;
+  color: #000000;
+}
+
+.header_icons {
+  max-width: 104px;
+  margin-left: 30px;
+}
+
+.header_form_wrap {
+  max-width: 368px;
+}
+
+.header_menu {
+  max-width: 100%;
+}
+
+.header_menu_link {
+  text-decoration: none;
+  color: #000;
+  font-family: PT Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.015em;
+}
+
+.special_view {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.footer_top {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #F1F4F5;
+}
+
+.first_links a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: PT Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+
+.second_links span {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: PT Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+
+.footer_bottom {
+  padding-top: 10px;
+  background: #E8EDEF;
+}
+
+.footer_bottom_left span {
+  margin-bottom: 10px;
+}
+
+.footer_bottom_right a {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.letter-change {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  padding-top: 5px;
+}
+
+.copyright {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #666666;
+}
