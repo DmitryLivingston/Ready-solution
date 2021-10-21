@@ -1,6 +1,7 @@
 @charset "UTF-8";
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: sans-serif;
 }
 
@@ -46,8 +47,12 @@ a {
   line-height: 29px;
   letter-spacing: 0.015em;
   color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .form-control {
@@ -64,12 +69,18 @@ a {
 }
 
 .news_block:hover {
-  box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
+  -webkit-box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
+          box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
 }
 
 .news_description {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 20px;
 }
 
@@ -130,7 +141,8 @@ a {
 }
 
 .popular_services_block:hover {
-  box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
+  -webkit-box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
+          box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
 }
 
 .popular_services_block_title {
@@ -170,7 +182,8 @@ a {
 }
 
 .best_specialists_block:hover {
-  box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
+  -webkit-box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
+          box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
 }
 
 .best_specialists_description {
@@ -334,6 +347,8 @@ a {
 
 /* Лента слайдов */
 .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -389,8 +404,12 @@ a {
 
 .slider_content_button_wrap {
   max-width: 281px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .slider_content h3 {
@@ -421,10 +440,19 @@ a {
   background-color: #fff;
   height: 100%;
   width: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .partners_name {
@@ -448,6 +476,8 @@ a {
 
 /* Лента слайдов */
 .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -495,11 +525,6 @@ a {
   color: #000000;
 }
 
-.header_icons {
-  max-width: 104px;
-  margin-left: 30px;
-}
-
 .header_form_wrap {
   max-width: 368px;
 }
@@ -527,6 +552,10 @@ a {
   line-height: 25px;
   letter-spacing: 0.01em;
   color: #000000;
+}
+
+#navbarSupportedContent {
+  max-width: 100%;
 }
 
 .footer_top {
@@ -598,3 +627,4 @@ a {
   line-height: 14px;
   color: #666666;
 }
+/*# sourceMappingURL=style.css.map */
