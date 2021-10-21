@@ -1,7 +1,6 @@
 @charset "UTF-8";
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: sans-serif;
 }
 
@@ -95,8 +94,6 @@ a {
 
 /* Лента слайдов */
 .slick-track {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -126,12 +123,8 @@ a {
 
 .slider_content_button_wrap {
   max-width: 281px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .slider_content h3 {
@@ -153,12 +146,12 @@ a {
   color: #000000;
 }
 
-.header_top {
+.header2_top {
   background-color: #fff;
   padding: 5px;
 }
 
-.header_number {
+.header2_number {
   font-family: Roboto, sans-serif;
   font-style: bold;
   font-weight: 700;
@@ -167,11 +160,11 @@ a {
   color: #000000;
 }
 
-.header_menu {
+.header2_menu {
   max-width: 100%;
 }
 
-.header_menu_link {
+.header2_menu_link {
   text-decoration: none;
   color: #000;
   font-family: PT Sans, sans-serif;
@@ -183,11 +176,11 @@ a {
   padding: 10px 70px !important;
 }
 
-.header_menu_link:hover {
+.header2_menu_link:hover {
   background: #E8E8E8 !important;
 }
 
-.header_bottom {
+.header2_bottom {
   background-color: #F4F4F4;
 }
 
@@ -228,12 +221,8 @@ a {
   line-height: 29px;
   letter-spacing: 0.015em;
   color: #000000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .footer_top {
@@ -263,6 +252,17 @@ a {
   font-size: 16px;
   line-height: 21px;
   letter-spacing: 0.015em;
+  color: #000000;
+}
+
+.second_links span span {
+  margin-left: 10px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.005em;
   color: #000000;
 }
 
@@ -316,18 +316,12 @@ a {
 }
 
 .news_block:hover {
-  -webkit-box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
-          box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
+  box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
 }
 
 .news_description {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 20px;
 }
 
@@ -379,8 +373,7 @@ a {
 }
 
 .popular_services_block:hover {
-  -webkit-box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
-          box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
+  box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
 }
 
 .popular_services_block_title {
@@ -419,16 +412,14 @@ a {
 }
 
 .best_specialists_block:hover {
-  -webkit-box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
-          box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
+  box-shadow: 0px 3px 30px rgba(60, 60, 60, 0.1);
 }
 
 .best_specialists_block img {
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .best_specialists_description {
@@ -573,28 +564,23 @@ a {
   padding-bottom: 50px;
 }
 
+.partners .container .row div {
+  padding: 0;
+}
+
 .partners_slider_block_content {
   padding: 10px;
+  border: 1px solid #D7D7D7;
+  background-color: #fff;
 }
 
 .slider_block_content_into {
-  border: 1px solid #D7D7D7;
-  background-color: #fff;
   height: 100%;
   width: 100;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .partners_name {
@@ -618,8 +604,6 @@ a {
 
 /* Лента слайдов */
 .slick-track {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -653,4 +637,3 @@ a {
 /* Точки (булиты) */
 /* Активная точка */
 /* Элемент точки */
-/*# sourceMappingURL=style.css.map */
