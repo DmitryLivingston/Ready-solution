@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <title>Первый вариант</title>
+</head>
+
+<body link="#000">
+    <header class="header">
+        <!-- Верхняя шапка  -->
+        <section class="header_top">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-6 col-lg-3 mt-lg-0 mt-2">
+                        <div class="special_view">
+                            <span>Aa</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-4 mt-lg-0 mt-2">
+                        
+                            <form class="form-inline" style="max-width:368px;">
+                                <input class="form-control" type="search" placeholder="Поиск"
+                                    aria-label="Поиск">
+                            </form>
+                        
+                    </div>
+
+
+                    <div class="col-lg-5 col-12 mt-lg-0 mt-2">
+                        <div class="row">
+                            <div
+                                class="col-md-9 col-6 d-flex justify-content-lg-end justify-content-xs-start align-items-center">
+                                <a href="tel:89999999999" class="header_number">+7 (999) 999 99
+                                    99</a>
+                            </div>
+                            <div class="col-md-3 col-6 header_icons d-flex justify-content-end">
+                                <div class="row">
+                                    <div class="col-4"><a class="" href=""><img src="img/social/WhatsUp.png" alt="WhatsUp"></a></div>
+                                    <div class="col-4"><a class="" href=""><img src="img/social/Insta.png" alt="Instagram"></a></div>
+                                    <div class="col-4"><a class="" href=""><img src="img/social/VK.png" alt="VK"></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>      
+            </div>
+        </section>
+        <!-- Нижняя шапка  -->
+        <section class="header_bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    
+                        <div class="col-lg-3 col-6">
+                            <div class="navbar-brand site_icon d-flex flex-md-row flex-column ">
+                                <img src="img/Лого.png" alt="Лого" style="max-width:70px">
+                                <span class="mb-0 h1">Медцентр</span>
+                            </div>
+                        </div>
+
+                        <div class="col-6  d-flex d-lg-block justify-content-end">
+
+                            <nav class="navbar navbar-expand-lg navbar-light">
+                               
+                                  
+                                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                  </button>
+                                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Услуги</a>
+                                          </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#">Новости и акции</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#">О центре</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#">Специалисты</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#">Пациенту</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#">Контакты</a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                
+                              </nav>
+
+                        </div>
+
+                        <div class="col-lg-3 col-12 mb-lg-0 mb-2">
+                            <div class="d-flex justify-content-lg-end">
+                                <button type="button" class="header_button btn btn-primary">Получить
+                                    консультацию</button>
+                            </div>
+                        </div>
+                   
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="slider_section">
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    
+                  <div class="carousel-item carousel-item-first  active">
+                    <img class="bd-placeholder-img" width="100%" height="100%" src="img/slider/1.jpg"></img>
+            
+                    <div class="container">
+                      <div class="carousel-caption text-start">
+                        <h1 style="max-width:268px">Азбука здоровья для вашего ребенка</h1>
+                        <p style="max-width:466px">Педиатр в клинике и на дому. Плановые и внеплановые осмотры. Лечим все – от простуды до разбитых коленок!</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Подробнее</a>
+                            <a class="btn btn-lg btn-outline-primary" href="#">Семейный доктор</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item carousel-item-first ">
+                    <img class="bd-placeholder-img" width="100%" height="100%" src="img/slider/1.jpg"></img>
+            
+                    <div class="container">
+                      <div class="carousel-caption text-start">
+                        <h1 style="max-width:268px">Азбука здоровья для вашего ребенка</h1>
+                        <p style="max-width:466px">Педиатр в клинике и на дому. Плановые и внеплановые осмотры. Лечим все – от простуды до разбитых коленок!</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Подробнее</a>
+                            <a class="btn btn-lg btn-outline-primary" href="#">Семейный доктор</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item carousel-item-first ">
+                    <img class="bd-placeholder-img" width="100%" height="100%" src="img/slider/1.jpg"></img>
+            
+                    <div class="container">
+                      <div class="carousel-caption text-start">
+                        <h1 style="max-width:268px">Азбука здоровья для вашего ребенка</h1>
+                        <p style="max-width:466px">Педиатр в клинике и на дому. Плановые и внеплановые осмотры. Лечим все – от простуды до разбитых коленок!</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Подробнее</a>
+                            <a class="btn btn-lg btn-outline-primary" href="#">Семейный доктор</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+        <section class="news">
+            <div class="container">
+                <div class="row d-flex align-items-center section_title">
+                    <span class="col-6">Новости и акции</span>
+                    <a class="col-6 d-flex justify-content-end" href="#">Все новости</a>
+                </div>
+
+                <div class="news_block_wrap">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <div class="news_block d-flex flex-column justify-content-center"><img src="img/example.jpg"
+                                    alt="">
+                                <div class="news_description"><span class="news_date">13 сентября 2021</span><span
+                                        class="news_title">Вызов врача на дом стал дешевле!</span></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <div class="news_block d-flex flex-column justify-content-center"><img src="img/example.jpg"
+                                    alt="">
+                                <div class="news_description"><span class="news_date">13 сентября 2021</span><span
+                                        class="news_title">Вызов врача на дом стал дешевле!</span></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <div class="news_block d-flex flex-column justify-content-center"><img src="img/example.jpg"
+                                    alt="">
+                                <div class="news_description"><span class="news_date">13 сентября 2021</span><span
+                                        class="news_title">Вызов врача на дом стал дешевле!</span></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <div class="news_block d-flex flex-column justify-content-center"><img src="img/example.jpg"
+                                    alt="">
+                                <div class="news_description"><span class="news_date">13 сентября 2021</span><span
+                                        class="news_title">Вызов врача на дом стал дешевле!</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="popular_services">
+            <div class="container">
+                <div class="row d-flex align-items-center section_title">
+                    <span class="col-6">Популярные услуги</span>
+                    <a class="col-6 d-flex justify-content-end" href="#">Все услуги</a>
+                </div>
+
+                <div class="popular_services_wrap">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <div class="popular_services_block">
+                                <div class="row">
+                                    <div class="col-xs-12 col-lg-5 col-md-7"><img src="img/example.jpg"
+                                            style="width:100%; height: 100%;" alt=""></div>
+                                    <div class=" col-xs-12 col-lg-7 col-md-5">
+                                        <div class="popular_services_wrap_description d-flex flex-column">
+                                            <span class="popular_services_block_title">Название отделения</span>
+                                            <div class="popular_services_description_content"><a href="">
+                                                    <span>пример
+                                                        услуги</span>
+                                                </a><a href=""><span>пример услуги</span></a><a href="">
+                                                    <span>пример
+                                                        услуги</span>
+                                                </a><a href=""><span>пример услуги</span></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <div class="popular_services_block">
+                                <div class="row">
+                                    <div class="col-xs-12 col-lg-5 col-md-7"><img src="img/example.jpg"
+                                            style="width:100%; height: 100%;" alt=""></div>
+                                    <div class=" col-xs-12 col-lg-7 col-md-5">
+                                        <div class="popular_services_wrap_description d-flex flex-column">
+                                            <span class="popular_services_block_title">Название отделения</span>
+                                            <div class="popular_services_description_content"><a href="">
+                                                    <span>пример
+                                                        услуги</span>
+                                                </a><a href=""><span>пример услуги</span></a><a href="">
+                                                    <span>пример
+                                                        услуги</span>
+                                                </a><a href=""><span>пример услуги</span></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <div class="popular_services_block">
+                                <div class="row">
+                                    <div class="col-xs-12 col-lg-5 col-md-7"><img src="img/example.jpg"
+                                            style="width:100%; height: 100%;" alt=""></div>
+                                    <div class=" col-xs-12 col-lg-7 col-md-5">
+                                        <div class="popular_services_wrap_description d-flex flex-column">
+                                            <span class="popular_services_block_title">Название отделения</span>
+                                            <div class="popular_services_description_content"><a href="">
+                                                    <span>пример
+                                                        услуги</span>
+                                                </a><a href=""><span>пример услуги</span></a><a href="">
+                                                    <span>пример
+                                                        услуги</span>
+                                                </a><a href=""><span>пример услуги</span></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <div class="popular_services_block">
+                                <div class="row">
+                                    <div class="col-xs-12 col-lg-5 col-md-7"><img src="img/example.jpg"
+                                            style="width:100%; height: 100%;" alt=""></div>
+                                    <div class=" col-xs-12 col-lg-7 col-md-5">
+                                        <div class="popular_services_wrap_description d-flex flex-column">
+                                            <span class="popular_services_block_title">Название отделения</span>
+                                            <div class="popular_services_description_content"><a href="">
+                                                    <span>пример
+                                                        услуги</span>
+                                                </a><a href=""><span>пример услуги</span></a><a href="">
+                                                    <span>пример
+                                                        услуги</span>
+                                                </a><a href=""><span>пример услуги</span></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="best_specialists">
+            <div class="container">
+                <div class="row d-flex align-items-center section_title">
+                    <span class="col-6">Лучшие специалисты</span>
+                    <a class="col-6 d-flex justify-content-end" href="#">Все специалисты</a>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-xs-12">
+                        <article>
+                            <div class="best_specialists_block d-flex flex-column justify-content-center"><img
+                                    src="img/example-2.jpg" alt="">
+                                <div class="best_specialists_description d-flex flex-column align-items-center">
+                                    <span class="best_specialists_name">Фамилия Имя Отчество</span>
+                                    <span class="best_specialists_position">Главный врач</span>
+                                    <div class="specialist_button_wrap"><button class="btn btn-outline-primary">Подробнее</button></div>
+                                    
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-xs-12">
+                        <article>
+                            <div class="best_specialists_block d-flex flex-column justify-content-center"><img
+                                    src="img/example-2.jpg" alt="">
+                                <div class="best_specialists_description d-flex flex-column align-items-center">
+                                    <span class="best_specialists_name">Фамилия Имя Отчество</span>
+                                    <span class="best_specialists_position">Главный врач</span>
+                                    <div class="specialist_button_wrap"><button class="btn btn-outline-primary">Подробнее</button></div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-xs-12">
+                        <article>
+                            <div class="best_specialists_block d-flex flex-column justify-content-center"><img
+                                    src="img/example-2.jpg" alt="">
+                                <div class="best_specialists_description d-flex flex-column align-items-center">
+                                    <span class="best_specialists_name">Фамилия Имя Отчество</span>
+                                    <span class="best_specialists_position">Главный врач</span>
+                                    <div class="specialist_button_wrap"><button class="btn btn-outline-primary">Подробнее</button></div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-xs-12">
+                        <article>
+                            <div class="best_specialists_block d-flex flex-column justify-content-center"><img
+                                    src="img/example-2.jpg" alt="">
+                                <div class="best_specialists_description d-flex flex-column align-items-center">
+                                    <span class="best_specialists_name">Фамилия Имя Отчество</span>
+                                    <span class="best_specialists_position">Главный врач</span>
+                                    <div class="specialist_button_wrap"><button class="btn btn-outline-primary">Подробнее</button></div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="row d-flex align-items-center section_title">
+                    <span class="col-6">О центре</span>
+                    <a class="col-6 d-flex justify-content-end" href="#">Подробнее</a>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <div class="about_description">
+                            <p>
+                                Клиника «Медицинский центр» – это частный медицинский центр для всей семьи с 3 филиалами
+                                в Москве. Есть детское и взрослое направление, отделение диагностики, экстренная помощь
+                                с выездом на дом.
+                            </p>
+                            <p>
+                                У нас наблюдаются целыми семьями, начиная с планирования и ведения беременности. Прием
+                                ведут врачи с богатой практикой и узкие специалисты – гастроэнтеролог, кардиолог,
+                                детский офтальмолог и хирург-ортопед. Есть собственная лаборатория анализов и
+                                диагностики. Нужен анализ крови или хотите знать, как чувствует себя ваше сердце,
+                                печень, ЖКТ? Никуда идти не придется! За 1 день проведем комплексное обследование и
+                                выясним, как сохранить здоровье на долгие годы.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <img class="about_img" src="img/example-about.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <div class="row d-flex align-items-center section_title">
+                    <span class="col-6 ">Отзывы</span>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <article class="reviews_block d-flex flex-column">
+                            <img src="img/reviews.svg" alt="" class="reviews_icon">
+                            <span class="reviews_data">12 сентября 2021</span>
+                            <span class="reviews_name">Фамилия Имя Отчество</span>
+                            <span class="reviews_description">Клиника «Медицинский центр» – это частный медицинский
+                                центр для всей семьи с 3 филиалами в Москве. Есть детское и взрослое направление,
+                                отделение диагностики, экстренная помощь с выездом на дом.</span>
+                            <div class="reviews_button_wrap"><button
+                                    class="btn btn-outline-primary reviews_button">Отзыв полностью</button></div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <article class="reviews_block d-flex flex-column">
+                            <img src="img/reviews.svg" alt="" class="reviews_icon">
+                            <span class="reviews_data">12 сентября 2021</span>
+                            <span class="reviews_name">Фамилия Имя Отчество</span>
+                            <span class="reviews_description">Клиника «Медицинский центр» – это частный медицинский
+                                центр для всей семьи с 3 филиалами в Москве. Есть детское и взрослое направление,
+                                отделение диагностики, экстренная помощь с выездом на дом.</span>
+                            <div class="reviews_button_wrap"><button
+                                    class="btn btn-outline-primary reviews_button">Отзыв полностью</button></div>
+
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-xs-12">
+                        <div class="contacts_description d-flex flex-column">
+                            <h3>Контактная информация</h3>
+                            <span><b>Адрес:</b>г. Далеко, улица Далеко, д. 30, кв. 47</span>
+                            <span><b>Почта:</b>pochta@mail.ru</span>
+                            <span><b>Телефон:</b>+7 (999) 999 99 99</span>
+                            <div class="contacts_social">
+                                <a href=""><img src="img/social/WhatsUp.png" alt=""></a>
+                                <a href=""><img src="img/social/Insta.png" alt=""></a>
+                                <a href=""><img src="img/social/VK.png" alt=""></a>
+                            </div>
+                            <div class=""><button class="btn btn-primary">Получить консультацию</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-xs-12">
+                        <img class="contacts_map" src="img/map.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="container">
+                <div class="row">
+                    <div class="partners_slider">
+                        <div class="partners_slider_block">
+                            <div class="partners_slider_block_content">
+                                <div class="slider_block_content_into">
+                                    <img src="img/partners-logo.png" alt="Слайд">
+                                    <span class="partners_name">Медцентр</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="partners_slider_block">
+                            <div class="partners_slider_block_content">
+                                <div class="slider_block_content_into">
+                                    <img src="img/partners-logo.png" alt="Слайд">
+                                    <span class="partners_name">Медцентр</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="partners_slider_block">
+                            <div class="partners_slider_block_content">
+                                <div class="slider_block_content_into">
+                                    <img src="img/partners-logo.png" alt="Слайд">
+                                    <span class="partners_name">Медцентр</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="partners_slider_block">
+                            <div class="partners_slider_block_content">
+                                <div class="slider_block_content_into">
+                                    <img src="img/partners-logo.png" alt="Слайд">
+                                    <span class="partners_name">Медцентр</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="partners_slider_block">
+                            <div class="partners_slider_block_content">
+                                <div class="slider_block_content_into">
+                                    <img src="img/partners-logo.png" alt="Слайд">
+                                    <span class="partners_name">Медцентр</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="partners_slider_block">
+                            <div class="partners_slider_block_content">
+                                <div class="slider_block_content_into">
+                                    <img src="img/partners-logo.png" alt="Слайд">
+                                    <span class="partners_name">Медцентр</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="partners_slider_block">
+                            <div class="partners_slider_block_content">
+                                <div class="slider_block_content_into">
+                                    <img src="img/partners-logo.png" alt="Слайд">
+                                    <span class="partners_name">Медцентр</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                        <div class="first_links d-flex justify-content-top align-items-between flex-column">
+                            <a href=""><span>Лицензии и сертификаты</span></a>
+                            <a href=""><span>Надзорные органы</span></a>
+                            <a href=""><span>Права пациенты</span></a>
+                            <a href=""><span>Запись на прем</span></a>
+                            <a href=""><span>Карта сайта</span></a>
+                            <a href=""><span>Политика конфиденциальнсти</span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="second_links d-flex justify-content-top align-items-between flex-column">
+                            <span>Контактная информация Центра:</span>
+                            <span>Адрес:</span>
+                            <span>Телефон:</span>
+                            <span>Почта:</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="d-flex justify-content-end align-items-center">
+                            <div class="footer_icons">
+                                <a href=""><img src="img/footer-icon-example.png" alt="WhatsUp"></a>
+                                <a href=""><img src="img/footer-icon-example.png" alt="Instagram"></a>
+                                <a href=""><img src="img/footer-icon-example.png" alt="VK"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer_bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="footer_bottom_left d-flex justify-content-center align-items-between flex-column">
+                            <span class="letter-change">аА</span>
+                            <span class="copyright">Сайт защищен reCAPTCHA и Google Политика конфиденциальности и
+                                Условия использования</span>
+                            <span class="copyright">© 2021 | Политика конфиденциальности</span>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="footer_bottom_right d-flex justify-content-center align-items-end flex-column">
+                            <a href=""><span>ИНН</span></a>
+                            <a href=""><span>КПП</span></a>
+                            <a href=""><span>ОГРН</span></a>
+                            <a href=""><span>Наименование ИП</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

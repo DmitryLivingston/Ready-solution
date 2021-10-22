@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\..\\Downloads\\bootstrap-5.0.2-examples"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "src2"
+	}
+}

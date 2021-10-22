@@ -9,10 +9,12 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/a3687c422b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
-    <title>Hello, world!</title>
+    <title>Второй вариант</title>
 </head>
 
 <body>
@@ -43,8 +45,8 @@
                             <span>Aa</span>
                         </div>
                     </div>
-                    <div class="col-2">
-                        <div class="search"> <i class="fa fa-search"></i> <input type="text" class="form-control"></div>
+                    <div class="col-2 d-flex justify-content-end">
+                        <div class="search header_seach_icon"> <i class="fa fa-search"></i></div>
                     </div>
                  </div>
         </section>
@@ -96,45 +98,79 @@
         </section>
     </header>
     <main>
-        <section class="slider_section">
+        <section class="slider_section2">
             <div class="container">
-                <div class="slider">
-                    <div class="slider_item">
-                        <img src="img/for_index_2/+ фото.jpg" alt="Слайд">
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
-                    <div class="slider_item">
-                        <img src="img/for_index_2/+ фото.jpg" alt="Слайд">
-
-                        <!--<div class="slider_content">
-                            <h3>Азбука здоровья для <br> вашего ребенка</h3>
-                            <p>Педиатр в клинике и на дому. Плановые и внеплановые осмотры. <br> Лечим все – от простуды до
-                                разбитых
-                                коленок!</p>
-                            <div class="slider_content_button_wrap">
-                                <button type="button" class="btn btn-primary">Подробнее</button>
-                                <button type="button" class="btn btn-outline-primary">Семейный доктор</button>
-                            </div>
-                        </div>-->
+                    <div class="carousel-inner">
+                      <div class="carousel-item carousel-item-second active">
+                        <img class="bd-placeholder-img" width="100%" height="100%" src="img/slider/1.jpg"></img>
+                
+                        <div class="container">
+                          <div class="carousel-caption text-start">
+                            <h1 style="max-width:268px">Азбука здоровья для вашего ребенка</h1>
+                            <p style="max-width:466px">Педиатр в клинике и на дому. Плановые и внеплановые осмотры. Лечим все – от простуды до разбитых коленок!</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Подробнее</a>
+                                <a class="btn btn-lg btn-outline-primary" href="#">Семейный доктор</a></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item carousel-item-second">
+                        <img class="bd-placeholder-img" width="100%" height="100%" src="img/slider/1.jpg"></img>
+                
+                        <div class="container">
+                          <div class="carousel-caption text-start">
+                            <h1 style="max-width:268px">Азбука здоровья для вашего ребенка</h1>
+                            <p style="max-width:466px">Педиатр в клинике и на дому. Плановые и внеплановые осмотры. Лечим все – от простуды до разбитых коленок!</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Подробнее</a>
+                                <a class="btn btn-lg btn-outline-primary" href="#">Семейный доктор</a></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item carousel-item-second">
+                        <img class="bd-placeholder-img" width="100%" height="100%" src="img/slider/1.jpg"></img>
+                
+                        <div class="container">
+                          <div class="carousel-caption text-start">
+                            <h1 style="max-width:268px">Азбука здоровья для вашего ребенка</h1>
+                            <p style="max-width:466px">Педиатр в клинике и на дому. Плановые и внеплановые осмотры. Лечим все – от простуды до разбитых коленок!</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Подробнее</a>
+                                <a class="btn btn-lg btn-outline-primary" href="#">Семейный доктор</a></p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
             </div>
         </section>
 
-        <section class="news">
+        <section class="news2">
             <div class="container">
                 <div class="row d-flex align-items-center section_title">
                     <div class="col-6"><span>Новости и акции</span></div>
                     <div class="col-6 d-flex justify-content-end"><a href="#">Все новости</a></div>
                 </div>
 
-                <div class="news_block_wrap">
+                <div class="news2_block_wrap">
                     <div class="row">
 
                         <div class="col-md-6 col-12">
-                            <div class="news_block d-flex"><img src="img/example.jpg" alt="">
-                                <div class="news_description"><span class="news_date">13 сентября 2021</span><span
-                                        class="news_title">Вызов врача на дом стал дешевле!</span>
-                                    <div class="news_preview">
+                            <div class="news2_block d-flex"><img src="img/example.jpg" alt="">
+                                <div class="news2_description"><span class="news2_date">13 сентября 2021</span><span
+                                        class="news2_title">Вызов врача на дом стал дешевле!</span>
+                                    <div class="news2_preview">
                                         <p>Описание новости может быть длинным, а может и нет, но в любом случае важная
                                             информация поместится</p>
                                     </div>
@@ -145,10 +181,10 @@
                         </div>
 
                         <div class="col-md-6 col-12">
-                            <div class="news_block d-flex"><img src="img/example.jpg" alt="">
-                                <div class="news_description"><span class="news_date">13 сентября 2021</span><span
-                                        class="news_title">Вызов врача на дом стал дешевле!</span>
-                                    <div class="news_preview">
+                            <div class="news2_block d-flex"><img src="img/example.jpg" alt="">
+                                <div class="news2_description"><span class="news2_date">13 сентября 2021</span><span
+                                        class="news2_title">Вызов врача на дом стал дешевле!</span>
+                                    <div class="news2_preview">
                                         <p>Описание новости может быть длинным, а может и нет, но в любом случае важная
                                             информация поместится</p>
                                     </div>
@@ -162,26 +198,26 @@
                 </div>
             </div>
         </section>
-        <section class="popular_services">
+        <section class="popular_services2">
             <div class="container">
                 <div class="row d-flex align-items-center section_title">
                     <div class="col-6"><span>Популярные услуги</span></div>
                     <div class="col-6 d-flex justify-content-end"><a href="#">Все услуги</a></div>
                 </div>
 
-                <div class="popular_services_wrap">
+                <div class="popular_services2_wrap">
                     <div class="row">
                         <div class="col-md-6 col-12">
-                            <div class="popular_services_block">
+                            <div class="popular_services2_block">
                                 <div class="row">
                                     <div class="col-2">
                                         <img src="img/for_index_2/service-1.png"
                                             style="width:100%; max-width:60px;" alt="">
                                         </div>
                                     <div class="col-10">
-                                        <div class="popular_services_wrap_description d-flex flex-column">
-                                            <span class="popular_services_block_title">Взрослое отделение</span>
-                                            <div class="popular_services_description_content"><a href="">
+                                        <div class="popular_services2_wrap_description d-flex flex-column">
+                                            <span class="popular_services2_block_title">Взрослое отделение</span>
+                                            <div class="popular_services2_description_content"><a href="">
                                                 <span>Ведение беременности</span>
                                             </a><a href=""><span>Гастроэнтерология</span></a><a href="">
                                                 <span>Кардиология</span>
@@ -192,16 +228,16 @@
                             </div>
                         </div>
                         <div class="col-md-6 col-12">
-                            <div class="popular_services_block">
+                            <div class="popular_services2_block">
                                 <div class="row">
                                     <div class="col-2">
                                         <img src="img/for_index_2/services-2.png"
                                             style="width:100%; max-width:60px;" alt="">
                                         </div>
                                     <div class="col-10">
-                                        <div class="popular_services_wrap_description d-flex flex-column">
-                                            <span class="popular_services_block_title">Взрослое отделение</span>
-                                            <div class="popular_services_description_content"><a href="">
+                                        <div class="popular_services2_wrap_description d-flex flex-column">
+                                            <span class="popular_services2_block_title">Взрослое отделение</span>
+                                            <div class="popular_services2_description_content"><a href="">
                                                 <span>Ведение беременности</span>
                                             </a><a href=""><span>Гастроэнтерология</span></a><a href="">
                                                 <span>Кардиология</span>
@@ -212,16 +248,16 @@
                             </div>
                         </div>
                         <div class="col-md-6 col-12">
-                            <div class="popular_services_block">
+                            <div class="popular_services2_block">
                                 <div class="row">
                                     <div class="col-2">
                                         <img src="img/for_index_2/service-3.png"
                                             style="width:100%; max-width:60px;" alt="">
                                         </div>
                                     <div class="col-10">
-                                        <div class="popular_services_wrap_description d-flex flex-column">
-                                            <span class="popular_services_block_title">Взрослое отделение</span>
-                                            <div class="popular_services_description_content"><a href="">
+                                        <div class="popular_services2_wrap_description d-flex flex-column">
+                                            <span class="popular_services2_block_title">Взрослое отделение</span>
+                                            <div class="popular_services2_description_content"><a href="">
                                                 <span>Ведение беременности</span>
                                             </a><a href=""><span>Гастроэнтерология</span></a><a href="">
                                                 <span>Кардиология</span>
@@ -232,16 +268,16 @@
                             </div>
                         </div>
                         <div class="col-md-6 col-12">
-                            <div class="popular_services_block">
+                            <div class="popular_services2_block">
                                 <div class="row">
                                     <div class="col-2">
                                         <img src="img/for_index_2/service-4.png"
                                             style="width:100%; max-width:60px;" alt="">
                                         </div>
                                     <div class="col-10">
-                                        <div class="popular_services_wrap_description d-flex flex-column">
-                                            <span class="popular_services_block_title">Взрослое отделение</span>
-                                            <div class="popular_services_description_content"><a href="">
+                                        <div class="popular_services2_wrap_description d-flex flex-column">
+                                            <span class="popular_services2_block_title">Взрослое отделение</span>
+                                            <div class="popular_services2_description_content"><a href="">
                                                 <span>Ведение беременности</span>
                                             </a><a href=""><span>Гастроэнтерология</span></a><a href="">
                                                 <span>Кардиология</span>
@@ -257,7 +293,7 @@
             </div>
         </section>
 
-        <section class="best_specialists">
+        <section class="best_specialists2">
             <div class="container">
                 <div class="row d-flex align-items-center section_title">
                     <div class="col-6"><span>Лучшие специалисты</span></div>
@@ -266,12 +302,12 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-xs-12">
                         <article>
-                            <div class="best_specialists_block d-flex flex-column justify-content-center align-items-center">
+                            <div class="best_specialists2_block d-flex flex-column justify-content-center align-items-center">
                                 <img
                                     src="img/example-2.jpg" alt="">
-                                <div class="best_specialists_description d-flex flex-column align-items-center">
-                                    <span class="best_specialists_name">Фамилия Имя Отчество</span>
-                                    <span class="best_specialists_position">Главный врач</span>
+                                <div class="best_specialists2_description d-flex flex-column align-items-center">
+                                    <span class="best_specialists2_name">Фамилия Имя Отчество</span>
+                                    <span class="best_specialists2_position">Главный врач</span>
                                     <div class="specialist_button_wrap"><button class="btn btn-outline-primary">Подробнее</button></div>
                                 </div>
                             </div>
@@ -279,12 +315,12 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-xs-12">
                         <article>
-                            <div class="best_specialists_block d-flex flex-column justify-content-center align-items-center">
+                            <div class="best_specialists2_block d-flex flex-column justify-content-center align-items-center">
                                 <img
                                     src="img/example-2.jpg" alt="">
-                                <div class="best_specialists_description d-flex flex-column align-items-center">
-                                    <span class="best_specialists_name">Фамилия Имя Отчество</span>
-                                    <span class="best_specialists_position">Главный врач</span>
+                                <div class="best_specialists2_description d-flex flex-column align-items-center">
+                                    <span class="best_specialists2_name">Фамилия Имя Отчество</span>
+                                    <span class="best_specialists2_position">Главный врач</span>
                                     <div class="specialist_button_wrap"><button class="btn btn-outline-primary">Подробнее</button></div>
                                 </div>
                             </div>
@@ -292,12 +328,12 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-xs-12">
                         <article>
-                            <div class="best_specialists_block d-flex flex-column justify-content-center align-items-center">
+                            <div class="best_specialists2_block d-flex flex-column justify-content-center align-items-center">
                                 <img
                                     src="img/example-2.jpg" alt="">
-                                <div class="best_specialists_description d-flex flex-column align-items-center">
-                                    <span class="best_specialists_name">Фамилия Имя Отчество</span>
-                                    <span class="best_specialists_position">Главный врач</span>
+                                <div class="best_specialists2_description d-flex flex-column align-items-center">
+                                    <span class="best_specialists2_name">Фамилия Имя Отчество</span>
+                                    <span class="best_specialists2_position">Главный врач</span>
                                     <div class="specialist_button_wrap"><button class="btn btn-outline-primary">Подробнее</button></div>
                                 </div>
                             </div>
@@ -305,12 +341,12 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-xs-12">
                         <article>
-                            <div class="best_specialists_block d-flex flex-column justify-content-center align-items-center">
+                            <div class="best_specialists2_block d-flex flex-column justify-content-center align-items-center">
                                 <img
                                     src="img/example-2.jpg" alt="">
-                                <div class="best_specialists_description d-flex flex-column align-items-center">
-                                    <span class="best_specialists_name">Фамилия Имя Отчество</span>
-                                    <span class="best_specialists_position">Главный врач</span>
+                                <div class="best_specialists2_description d-flex flex-column align-items-center">
+                                    <span class="best_specialists2_name">Фамилия Имя Отчество</span>
+                                    <span class="best_specialists2_position">Главный врач</span>
                                     <div class="specialist_button_wrap"><button class="btn btn-outline-primary">Подробнее</button></div>
                                 </div>
                             </div>
@@ -320,7 +356,7 @@
             </div>
         </section>
 
-        <section class="about">
+        <section class="about2">
             <div class="container">
                 <div class="row d-flex align-items-center section_title">
                     <div class="col-6"><span>О центре</span></div>
@@ -328,7 +364,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-xs-12">
-                        <div class="about_description">
+                        <div class="about2_description">
                             <p>
                                 Клиника «Медицинский центр» – это частный медицинский центр для всей семьи с 3 филиалами
                                 в Москве. Есть детское и взрослое направление, отделение диагностики, экстренная помощь
@@ -345,13 +381,13 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-xs-12">
-                        <img class="about_img" src="img/example-about.jpg" alt="">
+                        <img class="about2_img" src="img/example-about.jpg" alt="">
                     </div>
 
                 </div>
             </div>
         </section>
-        <section class="reviews">
+        <section class="reviews2">
             <div class="container">
                 <div class="row d-flex align-items-center section_title">
                     <span class="col-6 ">Отзывы</span>
@@ -359,27 +395,27 @@
 
                 <div class="row">
                     <div class="col-md-6 col-xs-12">
-                        <article class="reviews_block d-flex flex-column">
-                            <img src="img/reviews.svg" alt="" class="reviews_icon">
-                            <span class="reviews_data">12 сентября 2021</span>
-                            <span class="reviews_name">Фамилия Имя Отчество</span>
-                            <span class="reviews_description">Клиника «Медицинский центр» – это частный медицинский
+                        <article class="reviews2_block d-flex flex-column">
+                            <img src="img/reviews.svg" alt="" class="reviews2_icon">
+                            <span class="reviews2_data">12 сентября 2021</span>
+                            <span class="reviews2_name">Фамилия Имя Отчество</span>
+                            <span class="reviews2_description">Клиника «Медицинский центр» – это частный медицинский
                                 центр для всей семьи с 3 филиалами в Москве. Есть детское и взрослое направление,
                                 отделение диагностики, экстренная помощь с выездом на дом.</span>
-                            <div class="reviews_button_wrap"><button
-                                    class="btn btn-outline-primary reviews_button">Отзыв полностью</button></div>
+                            <div class="reviews2_button_wrap"><button
+                                    class="btn btn-outline-primary reviews2_button">Отзыв полностью</button></div>
                         </article>
                     </div>
                     <div class="col-md-6 col-xs-12">
-                        <article class="reviews_block d-flex flex-column">
-                            <img src="img/reviews.svg" alt="" class="reviews_icon">
-                            <span class="reviews_data">12 сентября 2021</span>
-                            <span class="reviews_name">Фамилия Имя Отчество</span>
-                            <span class="reviews_description">Клиника «Медицинский центр» – это частный медицинский
+                        <article class="reviews2_block d-flex flex-column">
+                            <img src="img/reviews.svg" alt="" class="reviews2_icon">
+                            <span class="reviews2_data">12 сентября 2021</span>
+                            <span class="reviews2_name">Фамилия Имя Отчество</span>
+                            <span class="reviews2_description">Клиника «Медицинский центр» – это частный медицинский
                                 центр для всей семьи с 3 филиалами в Москве. Есть детское и взрослое направление,
                                 отделение диагностики, экстренная помощь с выездом на дом.</span>
-                            <div class="reviews_button_wrap"><button
-                                    class="btn btn-outline-primary reviews_button">Отзыв полностью</button></div>
+                            <div class="reviews2_button_wrap"><button
+                                    class="btn btn-outline-primary reviews2_button">Отзыв полностью</button></div>
 
                         </article>
                     </div>
@@ -387,16 +423,16 @@
             </div>
         </section>
 
-        <section class="contacts">
+        <section class="contacts2">
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 col-xs-12">
-                        <div class="contacts_description d-flex flex-column">
+                        <div class="contacts2_description d-flex flex-column">
                             <h3>Контактная информация</h3>
                             <span><b>Адрес:</b>г. Далеко, улица Далеко, д. 30, кв. 47</span>
                             <span><b>Почта:</b>pochta@mail.ru</span>
                             <span><b>Телефон:</b>+7 (999) 999 99 99</span>
-                            <div class="contacts_social">
+                            <div class="contacts2_social">
                                 <a href=""><img src="img/social/WhatsUp.png" alt=""></a>
                                 <a href=""><img src="img/social/Insta.png" alt=""></a>
                                 <a href=""><img src="img/social/VK.png" alt=""></a>
@@ -405,106 +441,101 @@
                         </div>
                     </div>
                     <div class="col-md-7 col-xs-12">
-                        <img class="contacts_map" src="img/map.jpg" alt="">
+                        <img class="contacts2_map" src="img/map.jpg" alt="">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="partners">
+        <section class="partners2">
             <div class="container">
-                <div class="row">
-                    
+                <div class="row">                   
                         <div class="col-6 col-md-3">
-                            <div class="partners_slider_block">
-                                <div class="partners_slider_block_content">
+                            <div class="partners2_slider_block">
+                                <div class="partners2_slider_block_content">
                                     <div class="slider_block_content_into">
                                         <img src="img/partners-logo.png" alt="Слайд">
-                                        <span class="partners_name">Медцентр</span>
+                                        <span class="partners2_name">Медцентр</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-md-3">
-                            <div class="partners_slider_block">
-                                <div class="partners_slider_block_content">
+                            <div class="partners2_slider_block">
+                                <div class="partners2_slider_block_content">
                                     <div class="slider_block_content_into">
                                         <img src="img/partners-logo.png" alt="Слайд">
-                                        <span class="partners_name">Медцентр</span>
+                                        <span class="partners2_name">Медцентр</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-md-3">
-                            <div class="partners_slider_block">
-                                <div class="partners_slider_block_content">
+                            <div class="partners2_slider_block">
+                                <div class="partners2_slider_block_content">
                                     <div class="slider_block_content_into">
                                         <img src="img/partners-logo.png" alt="Слайд">
-                                        <span class="partners_name">Медцентр</span>
+                                        <span class="partners2_name">Медцентр</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-md-3">
-                            <div class="partners_slider_block">
-                                <div class="partners_slider_block_content">
+                            <div class="partners2_slider_block">
+                                <div class="partners2_slider_block_content">
                                     <div class="slider_block_content_into">
                                         <img src="img/partners-logo.png" alt="Слайд">
-                                        <span class="partners_name">Медцентр</span>
+                                        <span class="partners2_name">Медцентр</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-md-3">
-                            <div class="partners_slider_block">
-                                <div class="partners_slider_block_content">
+                            <div class="partners2_slider_block">
+                                <div class="partners2_slider_block_content">
                                     <div class="slider_block_content_into">
                                         <img src="img/partners-logo.png" alt="Слайд">
-                                        <span class="partners_name">Медцентр</span>
+                                        <span class="partners2_name">Медцентр</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-md-3">
-                            <div class="partners_slider_block">
-                                <div class="partners_slider_block_content">
+                            <div class="partners2_slider_block">
+                                <div class="partners2_slider_block_content">
                                     <div class="slider_block_content_into">
                                         <img src="img/partners-logo.png" alt="Слайд">
-                                        <span class="partners_name">Медцентр</span>
+                                        <span class="partners2_name">Медцентр</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-md-3">
-                            <div class="partners_slider_block">
-                                <div class="partners_slider_block_content">
+                            <div class="partners2_slider_block">
+                                <div class="partners2_slider_block_content">
                                     <div class="slider_block_content_into">
                                         <img src="img/partners-logo.png" alt="Слайд">
-                                        <span class="partners_name">Медцентр</span>
+                                        <span class="partners2_name">Медцентр</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-md-3">
-                            <div class="partners_slider_block">
-                                <div class="partners_slider_block_content">
+                            <div class="partners2_slider_block">
+                                <div class="partners2_slider_block_content">
                                     <div class="slider_block_content_into">
                                         <img src="img/partners-logo.png" alt="Слайд">
-                                        <span class="partners_name">Медцентр</span>
+                                        <span class="partners2_name">Медцентр</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-                        
-
-                   
+                        </div>                 
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <section class="footer_top">
+        <section class="footer2_top">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-xs-12">
@@ -512,7 +543,7 @@
                             <a href=""><span>Лицензии и сертификаты</span></a>
                             <a href=""><span>Надзорные органы</span></a>
                             <a href=""><span>Права пациенты</span></a>
-                            <a href=""><span>Запись на прем</span></a>
+                            <a href=""><span>Запись на прием</span></a>
                             <a href=""><span>Карта сайта</span></a>
                             <a href=""><span>Политика конфиденциальнсти</span></a>
                         </div>
@@ -527,7 +558,7 @@
                     </div>
                     <div class="col-md-4 col-xs-12">
                         <div class="d-flex justify-content-end align-items-center">
-                            <div class="footer_icons">
+                            <div class="footer2_icons">
                                 <div class="row">
                                     <div class="col-4"><a class="" href=""><img src="img/social/WhatsUp.png" alt="WhatsUp"></a></div>
                                     <div class="col-4"><a class="" href=""><img src="img/social/Insta.png" alt="Instagram"></a></div>
@@ -540,11 +571,11 @@
             </div>
         </section>
 
-        <section class="footer_bottom">
+        <section class="footer2_bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-6">
-                        <div class="footer_bottom_left d-flex justify-content-center align-items-between flex-column">
+                        <div class="footer2_bottom_left d-flex justify-content-center align-items-between flex-column">
                             <span class="letter-change">аА</span>
                             <span class="copyright">Сайт защищен reCAPTCHA и Google Политика конфиденциальности и
                                 Условия использования</span>
@@ -552,7 +583,7 @@
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="footer_bottom_right d-flex justify-content-center align-items-end flex-column">
+                        <div class="footer2_bottom_right d-flex justify-content-center align-items-end flex-column">
                             <a href=""><span>ИНН</span></a>
                             <a href=""><span>КПП</span></a>
                             <a href=""><span>ОГРН</span></a>
