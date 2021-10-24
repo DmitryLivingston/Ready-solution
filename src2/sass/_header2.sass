@@ -1,7 +1,9 @@
 .header2
+    &_navbar
+        padding: 0
     &_top
         background-color: #fff
-        padding: 5px
+        //padding: 5px
     &_number
         font-family: Roboto, sans-serif
         font-style: bold
@@ -19,10 +21,14 @@
             font-weight: bold
             font-size: 16px
             line-height: 21px
-            letter-spacing: 0.015em
-            padding: 10px 70px !important
+            letter-spacing: 0.015em                       
+        &_item
+            padding: 10px 5% !important
+            min-width: 193px                
             &:hover
                 background: #E8E8E8 !important
+                a
+                    color: #0FA8AE !important
     &_bottom
         background-color: #F4F4F4
 .special_view
@@ -66,5 +72,4 @@
     height: 35px
     width: 35px
     display: flex
-    justify-content: center
     align-items: center 
